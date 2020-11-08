@@ -2,8 +2,8 @@
 "update_url": "https://clients2.google.com/service/update2/crx",
 
 	"manifest_version": 2,
-    "name": "Quantum",
-    "short_name": "Quantum",
+    "name": "Physics Text Editor",
+    "short_name": "Physics",
     "description": "A simple and elegant code editor.",
     "version": "5.0",
     "minimum_chrome_version": "38",
