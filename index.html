@@ -8,14 +8,14 @@
     <link type="text/css" rel="stylesheet" href="assets/codemirror/addon/lint/lint.css">
     <link type="text/css" rel="stylesheet" href="assets/css/jquery-ui.css" />
     <link type="text/css" rel="stylesheet" href="assets/codemirror/themes/material.css" />
-    <link type="text/css" rel='stylesheet' href='assets/codemirror/themes/birds-of-paradise.css'>
-    <link type="text/css" rel='stylesheet' href='assets/codemirror/themes/darkpastel.css'>
-    <link type="text/css" rel='stylesheet' href='assets/codemirror/themes/friendship-bracelet.css'>
-    <link type="text/css" rel='stylesheet' href='assets/codemirror/themes/monokai-sublime.css'>
-    <link type="text/css" rel='stylesheet' href='assets/codemirror/themes/purplenight.css'>
-    <link type="text/css" rel='stylesheet' href='assets/codemirror/themes/mono-industrial.css'>
-    <link type="text/css" rel='stylesheet' href='assets/codemirror/themes/zenburnesque.css'>
     <link type="text/css" rel="stylesheet" href="assets/css/main.css" />
+    <script>
+        // register ServiceWorker, remember to use absolute path!
+        if (navigator.serviceWorker) {
+            navigator.serviceWorker.register('/Physics-Text-Editor/sw.js', {scope: '/Physics-Text-Editor/'})
+        }
+        // --- Application code here ---
+    </script>
 </head>
 
 <body class="preload-body">
@@ -74,14 +74,7 @@
                     <div class="material-icons">arrow_drop_down</div>
                 </div>
                 <div class="dropdown-theme dropdown">
-                    <div class="theme">birds of paradise</div>
-                    <div class="theme">darkpastel</div>
-                    <div class="theme">friendship bracelet</div>
-                    <div class="theme">material</div>
-                    <div class="theme">mono industrial</div>
-                    <div class="theme">monokai sublime</div>
-                    <div class="theme">purplenight</div>
-                    <div class="theme">zenburnesque</div>
+                    <div class="theme">Material</div>
                 </div>
             </div>
             <div class="settingdiv">
@@ -243,7 +236,7 @@
             <div class="new-project-cancel">cancel</div>
         </div>
     </div>
-    <div class="sidebar">
+    <div class="sidebar" id=mySidenav>
         <div class="sidebar-title">Projects</div>
         <div class="projects"></div>
     </div>
