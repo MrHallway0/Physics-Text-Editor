@@ -1,10 +1,10 @@
 {
   "name": "Physics Text Editor",
   "short_name": "Physics",
-  "start_url": ".",
+  "start_url": "https://mrhallway0.github.io/Physics-Text-Editor/",
   "display": "standalone",
   "background_color": "#fff",
-  "description": "A simply readable Hacker News app.",
+  "description": "A FOSS PWA text editor!",
   "icons": [{
     "src": "images/touch/homescreen48.png",
     "sizes": "48x48",
