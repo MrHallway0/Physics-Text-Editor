@@ -1,1 +1,1 @@
-A PWA Fork of [DenisDeveloper/Quantum](https://github.com/DenisDeveloper/Quantum)
+A Fork of [DenisDeveloper/Quantum](https://github.com/DenisDeveloper/Quantum)
