@@ -11,11 +11,14 @@
     <link type="text/css" rel="stylesheet" href="assets/css/main.css" />
     <link rel="manifest" href="/manifest.webmanifest">
     <script>
-        // register ServiceWorker, remember to use absolute path!
-        if (navigator.serviceWorker) {
-            navigator.serviceWorker.register('/Physics-Text-Editor/sw.js', {scope: '/Physics-Text-Editor/'})
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "250px";
+          document.getElementById("main").style.marginLeft = "250px";
         }
-        // --- Application code here ---
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+          document.getElementById("main").style.marginLeft= "0";
+        }
     </script>
 </head>
 
